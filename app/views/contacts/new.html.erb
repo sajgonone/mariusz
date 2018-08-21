@@ -1,4 +1,11 @@
-<h1 id="page_tittle">Say Hello!</h1>
+<h1 id="page_tittle">Contact Form</h1>
+
+<div class="background">
+  <%= background-color: #212529; %><br>
+  <%= background-image: url("../img/map-image.png"); %><br> 
+  <%= background-repeat: no-repeat; %><br>
+  <%= background-position: center; %>
+  </div>
 
 <div class="skinny_wrapper wrapper_padding">
 <%= form_for @contact do |f| %>
@@ -28,14 +35,4 @@
 
       <%= f.submit 'Send Message', class: "button" %>
       <% end %>
-
-
-      <div class="background"> {
-      background-color: #212529;
-      background-image: url("../img/map-image.png");
-      background-repeat: no-repeat;
-        background-position: center;
-}
-</div>
-</div>
 </div>
